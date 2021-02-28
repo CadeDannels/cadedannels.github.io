@@ -1,0 +1,44 @@
+.alignParagraph {
+	margin-left: 5em;
+	margin-right: 10em;
+}
+
+.not-align {
+  margin-left: 0em;
+  margin-right: 0em;
+}
+/*
+.navbar-custom { 
+    background-color: #CF6766; 
+} 
+
+.about-content {
+    margin-top: 70px;
+    padding: 90px 0px;
+    text-align: center;
+}
+
+.align-items-center {
+    align-items: center !important;
+}
+
+.justify-content-center {
+    justify-content: center !important;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+*/
+
+.headPage {
+  padding: 2em
+}
