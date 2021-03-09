@@ -28,7 +28,7 @@
   			</code>
   		</pre>
   		<p>
-  				After some other basic dataframe cleaning (which you can find<a href="">here</a>. I made a basic scatterplot using the altair library.
+  				After some other basic dataframe cleaning (which you can find my code for here<a href="https://github.com/CadeDannels/Police-Stops">here</a>. I made a basic scatterplot using the altair library.
   		</p>
   		<img src="visualization (2).svg">
 
@@ -39,6 +39,7 @@
 	<h1>Version 2</h1>
 
 	<p>To improve the plot I wanted to add some color. I made the color based on the "Year_of_birth" column so that the darker colors are more recent birth years and the later ones are older. Additionally, I changed the y-axis label because "stoptime" doesn't make much sense to the typical viewer. Finally, I added a title to the plot.</p>
+	<p><a href="https://github.com/CadeDannels/Police-Stops">Code</a></p>
 
 	<img src="visualization (3).svg">
 
@@ -47,6 +48,15 @@
 <hr>
 
 <section>
+	<h1>Version 3</h1>
+	<p>
+		For the third version I added interactivity by adding a tooltip. When you hover over any of the data points the plot will respond by pulling up a tooltip with the data from that specific point. This is really helpful because it allows the viewer to see which birth year corresponds to which data point. This was not possible with this plot before this level of interactivity. Additionally, after consulting the docs I added interactivity where you can zoom in and out on the plot. This adds another element of functionality to the visualization.
+	</p>
+	<p>
+		<a href="https://github.com/CadeDannels/Police-Stops">Code</a>
+	</p>
+
+
 	<div id="vis"></div>
   <script>
     (function(vegaEmbed) {
