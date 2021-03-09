@@ -10,14 +10,20 @@
   			<code class="language-python">
     			data = pd.read_csv("Demographics_of_Police_Stops.csv")
   			</code>
+  		</pre>
   			<p>
   				I read in the data with pandas as a dataframe. After inspecting the data I decided I wanted to look at the birth year data point along with the stoptime data point. Knowing this, I performed a groupby on the data to get the count of how many stops were made by birth year and the average length of stop for that birth year. I did this with the following code:
   			</p>
-  			<pre class="line-numbers">
+  		<pre class="line-numbers">
   			<code class="language-python">
     			year_gb = data.groupby("Year_of_birth").agg({"ObjectId":'count', "stoptime":np.mean})
   			</code>
-</pre>
+  		</pre>
+  		<p>
+  				After some other basic dataframe cleaning (which you can find<a href="">here</a>. I made a basic scatterplot using the altair library.
+  		</p>
+  		<img src="visualization (2).svg">
+
 	</section>
 </body>
 </html>
