@@ -1,0 +1,19 @@
+.hero {
+    background-color: #126e82;
+    color: black;
+}
+
+.navbar {
+    background-color: #d8e3e7;
+}
+
+.custom-shape-divider-bottom-1622407448 .shape-fill {
+    fill: #d8e3e7;
+}
+
+.hover-in{
+	transition: .3s ease-out;
+}
+.hover-out{
+	transition: .3s ease-in;
+}
