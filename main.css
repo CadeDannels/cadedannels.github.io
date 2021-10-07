@@ -11,8 +11,9 @@ body {
     
 }
 
-.btn-primary {
-    background-color: #53B3CB;
+.btn-primary .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #53B3CB !important;
+    border-color: #53B3CB !important;
 }
 
 .caption-style-4 li{
